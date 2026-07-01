@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Tech Startup Development Roadmap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="roadmap-container">
+        <h1>Deep Tech Startup Development Roadmap</h1>
+        
+        <div class="phase-navigation">
+            <button class="phase-btn active" onclick="showPhase(1)">Phase 1:<br>Foundation<br>(Q1-Q4)</button>
+            <button class="phase-btn" onclick="showPhase(2)">Phase 2:<br>Validation<br>(Q5-Q8)</button>
+            <button class="phase-btn" onclick="showPhase(3)">Phase 3:<br>Early Growth<br>(Q9-Q16)</button>
+            <button class="phase-btn" onclick="showPhase(4)">Phase 4:<br>Scaling<br>(Q17-Q24)</button>
+        </div>
+
+        <div class="content-area">
+            <div class="functional-areas">
+                <button class="area-btn active" onclick="showArea('governance')">Governance & Strategic Planning</button>
+                <button class="area-btn" onclick="showArea('management')">Core Management</button>
+                <button class="area-btn" onclick="showArea('rd')">R&D & Product Development</button>
+                <button class="area-btn" onclick="showArea('market')">Market Development</button>
+                <button class="area-btn" onclick="showArea('legal')">Legal & IP Management</button>
+                <button class="area-btn" onclick="showArea('sales')">Sales & Commercial Operations</button>
+                <button class="area-btn" onclick="showArea('operations')">Operations & Infrastructure</button>
+                <button class="area-btn" onclick="showArea('hr')">Human Resources</button>
+                <button class="area-btn" onclick="showArea('finance')">Finance & Resource Management</button>
+                <button class="area-btn" onclick="showArea('external')">External Relations</button>
+                <button class="area-btn" onclick="showArea('risk')">Risk Management & Compliance</button>
+            </div>
+
+            <div class="details-panel" id="details-panel">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
