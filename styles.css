@@ -98,6 +98,18 @@ body {
     left: 0;
 }
 
+/* new for adding links */
+.details-content a {
+    color: #333;
+    text-decoration: none; /* Removes the underline */
+    transition: color 0.3s;
+}
+
+.details-content a:hover {
+    color: #4472C4; /* Matches your active button color */
+    text-decoration: underline; /* Adds underline on hover for clarity */
+}
+
 @media (max-width: 768px) {
     .content-area {
         grid-template-columns: 1fr;
